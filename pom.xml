@@ -138,7 +138,7 @@ python installed, if they don't need python bindings.
             <id>generate-bindings</id>
             <phase>generate-sources</phase>
             <goals>
-              <goal>exec</goal>
+              <goal>run</goal>
             </goals>
             <configuration>
               <executable>protoc</executable>
